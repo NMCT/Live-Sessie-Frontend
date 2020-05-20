@@ -1,0 +1,82 @@
+/* SETTINGS */
+
+/* ELEMENTS */
+body,
+html {
+	font: 16px / 1.5 -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+	color: #222;
+
+	background-color: #fafafa;
+}
+
+h1 {
+	font-weight: 500;
+	line-height: 1.5;
+
+	margin: 0;
+}
+
+/* OBJECTS */
+.o-holder {
+	min-height: 100vh;
+}
+
+@media screen and (min-width: 800px) {
+	.o-holder {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}
+
+/* COMPONENTS */
+.c-bike-overview {
+	display: block;
+	/* padding: 3rem; */
+
+	background: #fff;
+}
+
+.c-bike-overview__header {
+	padding: 2rem;
+
+	background-color: rgb(209, 233, 255);
+}
+
+.c-bike-overview__body {
+	padding: 3rem 2rem;
+}
+
+.c-bikes {
+	display: flex;
+	justify-content: space-between;
+}
+
+.c-bike__capacity {
+	font-size: 1.6rem;
+}
+
+.c-bike__description {
+	font-size: 0.7rem;
+}
+
+@media screen and (min-width: 800px) {
+	.c-bike-overview {
+		max-width: 500px;
+
+		box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, 0.1);
+	}
+}
+
+/* UTILITIES */
+.u-font-mono {
+	font-family: 'Roboto mono';
+}
+
+.u-opacity-50 {
+	opacity: 0.5;
+}
+
+.u-block {
+	display: block;
+}
