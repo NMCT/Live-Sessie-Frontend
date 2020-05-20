@@ -1,0 +1,29 @@
+{
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": ["51.034889000000", "3.709667000000"]
+	},
+	"properties": {
+		"contextEntity": 133,
+		"description": "Station Gent-St. P. (M. Hendrikaplein)",
+		"attributes": [
+			{
+				"attributeName": "CapacityTotal",
+				"value": 64
+			},
+			{
+				"attributeName": "CapacityInUse",
+				"value": 3
+			},
+			{
+				"attributeName": "CapacityAvailable",
+				"value": 16
+			},
+			{
+				"attributeName": "CapacityInMaintenance",
+				"value": 0
+			}
+		]
+	}
+}
