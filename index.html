@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<!-- META -->
+		<meta charset="UTF-8" />
+		<!-- Viewport omzetten van echte pixels naar grootte van je scherm -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Blue bikes in Gent 🚲</title>
+
+		<!-- STYLES -->
+		<!-- Alles over verschillende browsers hetzelfde renderen -->
+		<link rel="stylesheet" href="./style/normalize.css" />
+		<!-- Onze specifieke styles toepassen -->
+		<link rel="stylesheet" href="./style/screen.css" />
+
+		<!-- SCRIPT -->
+	</head>
+
+	<body>
+		<div class="o-holder">
+			<main class="c-bike-overview">
+				<header class="c-bik-overview__header">
+					<span class="u-font-mono u-opacity-50 js-timestamp"></span>
+					<h1>🚲 <span class="u-block">Station Gent St. Pieters</span></h1>
+				</header>
+
+				<div class="c-bike-overview__body">
+					<div class="c-bikes">
+						<div>
+							<div class="c-bike__capacity u-font-mono js-CapacityTotal">~</div>
+							<p class="c-bike__description"></p>
+						</div>
+
+						<div>
+							<div class="c-bike__capacity u-font-mono js-CapacityInUse">~</div>
+							<p class="c-bike__description"></p>
+						</div>
+
+						<div>
+							<div class="c-bike__capacity u-font-mono js-CapacityAvailable">~</div>
+							<p class="c-bike__description"></p>
+						</div>
+
+						<div>
+							<div class="c-bike__capacity u-font-mono js-CapacityInMaintenance">~</div>
+							<p class="c-bike__description"></p>
+						</div>
+					</div>
+				</div>
+			</main>
+		</div>
+	</body>
+</html>
