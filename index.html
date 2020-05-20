@@ -12,8 +12,11 @@
 		<link rel="stylesheet" href="./style/normalize.css" />
 		<!-- Onze specifieke styles toepassen -->
 		<link rel="stylesheet" href="./style/screen.css" />
+		<!-- manifest met properties om een website native like te maken -->
+		<link rel="manifest" href="manifest.json" />
 
 		<!-- SCRIPT -->
+		<script defer src="./script/app.js"></script>
 	</head>
 
 	<body>
@@ -28,22 +31,22 @@
 					<div class="c-bikes">
 						<div>
 							<div class="c-bike__capacity u-font-mono js-CapacityTotal">~</div>
-							<p class="c-bike__description"></p>
+							<p class="c-bike__description">Totaal</p>
 						</div>
 
 						<div>
 							<div class="c-bike__capacity u-font-mono js-CapacityInUse">~</div>
-							<p class="c-bike__description"></p>
+							<p class="c-bike__description">In gebruik</p>
 						</div>
 
 						<div>
 							<div class="c-bike__capacity u-font-mono js-CapacityAvailable">~</div>
-							<p class="c-bike__description"></p>
+							<p class="c-bike__description">Beschikbaar</p>
 						</div>
 
 						<div>
 							<div class="c-bike__capacity u-font-mono js-CapacityInMaintenance">~</div>
-							<p class="c-bike__description"></p>
+							<p class="c-bike__description">In onderhoud</p>
 						</div>
 					</div>
 				</div>
@@ -51,3 +54,5 @@
 		</div>
 	</body>
 </html>
+
+<!-- SCRIPT WORDT UITGEVOERD... -->
